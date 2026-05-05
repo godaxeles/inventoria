@@ -1,0 +1,155 @@
+# =========================
+#  .NET / C# build output
+# =========================
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Pp]ublish/
+[Pp]ublishProfiles/
+publish/
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.lock.json
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild
+*.binlog
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# StyleCop
+StyleCopReport.xml
+
+# =========================
+#  Visual Studio
+# =========================
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio cache/options
+.vshistory/
+.vscode/
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# =========================
+#  JetBrains Rider / ReSharper
+# =========================
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# =========================
+#  Test / Coverage
+# =========================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.opencover.xml
+.coverlet/
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+# =========================
+#  NuGet
+# =========================
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+!**/[Pp]ackages/*.targets
+!**/[Pp]ackages/*.props
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# =========================
+#  Entity Framework / DB
+# =========================
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+app.db
+
+# =========================
+#  ASP.NET Core
+# =========================
+appsettings.*.local.json
+appsettings.Local.json
+**/secrets.json
+.env
+.env.*
+!.env.example
+
+# Node / wwwroot tooling
+node_modules/
+npm-debug.log
+yarn-error.log
+wwwroot/lib/
+
+# =========================
+#  OS / Editor
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# =========================
+#  Misc
+# =========================
+*.bak
+*.orig
+*.rej
+*.log
